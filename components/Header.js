@@ -139,6 +139,44 @@ const Header = () => {
                 </button>
               </NavItem>
             )}
+          
+
+            <NavItem>
+              <Link href="/contact">
+                {/* <NavLink>Blogs</NavLink> */}
+                <button
+                  className="btn btn-lg btn-primary rounded-pill mr-2 mt-1"
+                  style={{
+                    backgroundColor: "#daebe8",
+                    color: " #6b5b95",
+                    borderColor: "#8f5b95",
+                    width: "100px",
+                    fontSize: "16px",
+                  }}
+                >
+                  Contact
+                </button>
+              </Link>
+            </NavItem>
+
+            <NavItem>
+              <Link href="/user/crud/blog">
+                <button
+                  className="btn btn-lg btn-primary rounded-pill mr-2 mt-1"
+                  style={{
+                    backgroundColor: "#fff",
+                    color: " #6b5b95",
+                    // borderColor: "#8f5b95",
+                    width: "auto",
+                    fontSize: "18px",
+                    fontWeight: "700",
+                    border: "2px solid #8f5b95",
+                  }}
+                >
+                  Write a Blog
+                </button>
+              </Link>
+            </NavItem>
             {isAuth() && isAuth().role == 0 && (
               <NavItem>
                 <Link href="/user">
@@ -180,43 +218,6 @@ const Header = () => {
                 </Link>
               </NavItem>
             )}
-
-            <NavItem>
-              <Link href="/contact">
-                {/* <NavLink>Blogs</NavLink> */}
-                <button
-                  className="btn btn-lg btn-primary rounded-pill mr-2 mt-1"
-                  style={{
-                    backgroundColor: "#daebe8",
-                    color: " #6b5b95",
-                    borderColor: "#8f5b95",
-                    width: "100px",
-                    fontSize: "16px",
-                  }}
-                >
-                  Contact
-                </button>
-              </Link>
-            </NavItem>
-
-            <NavItem>
-              <Link href="/user/crud/blog">
-                <button
-                  className="btn btn-lg btn-primary rounded-pill mr-2 mt-1"
-                  style={{
-                    backgroundColor: "#fff",
-                    color: " #6b5b95",
-                    // borderColor: "#8f5b95",
-                    width: "auto",
-                    fontSize: "18px",
-                    fontWeight: "700",
-                    border: "2px solid #8f5b95",
-                  }}
-                >
-                  Write a Blog
-                </button>
-              </Link>
-            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
