@@ -111,11 +111,11 @@ const SignupComponent = () => {
       {showMessage()}
       {showForm && signupForm()}
       <br />
-      <Link href="/auth/password/forgot">
+      {/* <Link href="/auth/password/forgot">
         <a href="" className="btn btn-outline-danger btn-sm">
           Forgot Password
         </a>
-      </Link>
+      </Link> */}
     </Fragment>
   );
 };
