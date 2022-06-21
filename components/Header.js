@@ -74,23 +74,7 @@ const Header = () => {
                 </button>
               </Link>
             </NavItem>
-            <NavItem>
-              <Link href="/contact">
-                {/* <NavLink>Blogs</NavLink> */}
-                <button
-                  className="btn btn-lg btn-primary rounded-pill mr-2 mt-1"
-                  style={{
-                    backgroundColor: "#daebe8",
-                    color: " #6b5b95",
-                    borderColor: "#8f5b95",
-                    width: "100px",
-                    fontSize: "16px",
-                  }}
-                >
-                  Contact
-                </button>
-              </Link>
-            </NavItem>
+           
 
             {/* </Fragment> */}
             {!isAuth() && (
@@ -196,6 +180,24 @@ const Header = () => {
                 </Link>
               </NavItem>
             )}
+
+            <NavItem>
+              <Link href="/contact">
+                {/* <NavLink>Blogs</NavLink> */}
+                <button
+                  className="btn btn-lg btn-primary rounded-pill mr-2 mt-1"
+                  style={{
+                    backgroundColor: "#daebe8",
+                    color: " #6b5b95",
+                    borderColor: "#8f5b95",
+                    width: "100px",
+                    fontSize: "16px",
+                  }}
+                >
+                  Contact
+                </button>
+              </Link>
+            </NavItem>
 
             <NavItem>
               <Link href="/user/crud/blog">

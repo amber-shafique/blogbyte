@@ -51,7 +51,7 @@ const Index = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1
+                <h3
                   className="display-4 font-weight-bold"
                   style={{
                     padding: "10px 0px 5px 0px",
@@ -65,7 +65,7 @@ const Index = () => {
                   }}
                 >
                   PROGRAMMING & WEB DEVELOPMENT BLOGS{" "}
-                </h1>
+                </h3>
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ const Index = () => {
               }}
             >
               <div className="col-md-4 pl-5 pb-4 pt-4">
-                <img src="static/images/lady.gif" width="350" />
+                <img src="static/images/lady.gif" width="300" />
               </div>
               <div
                 className="col-md-8 pb-5 pt-5 pl-5 pr-5"
@@ -249,26 +249,7 @@ const Index = () => {
         </article>
       </Layout>
 
-      <div className="head">
-        <div className="container contain">
-          <button id="goTopButton">
-            <i className="fas fa-arrow-circle-up text-white"></i>
-          </button>
-          <div className="row">
-            <div className="row justify-content-center padding-bottom-150">
-              <div className="col-lg-10 w--100">
-                <div className="row justify-content-around text-center">
-                  <div className="col-md-12 py-3 py-md-5 py-lg-5">
-                    <h4 className="font-weight-boldest font-size-30pt blue-text-dark text-uppercase padding-bottom-120">
-                      Meet Our Team
-                    </h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+  
 
       <Footer />
     </Fragment>
